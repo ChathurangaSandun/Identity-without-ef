@@ -28,10 +28,6 @@ namespace Identity.Web
             client.Credentials = new NetworkCredential("wacsk19921002@gmail.com", "Sandun#123");
 
             return client.SendMailAsync("wacsk19921002@gmail.com", message.Destination, message.Subject, message.Body);
-
-
-
-          
         }
     }
 

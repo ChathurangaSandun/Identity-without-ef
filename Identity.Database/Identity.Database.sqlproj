@@ -59,6 +59,7 @@
     <Folder Include="Properties" />
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
+    <Folder Include="Sps" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\IdentityUserRole.sql" />
@@ -67,6 +68,7 @@
     <Build Include="dbo\Tables\IdentityLogin.sql" />
     <Build Include="dbo\Tables\IdentityClaim.sql" />
     <Build Include="dbo\Tables\IdentityProfile.sql" />
+    <Build Include="Sps\Identity_InsertUser.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Generate.sql" />
